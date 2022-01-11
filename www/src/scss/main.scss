@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+}
+
+@import "./misc/variable";
+@import "./misc/mixins";
+@import "./indexPage/navbar";
+@import "./indexPage/mainContainer";
+@import "./indexPage/footer";
+@import "./moviePage/listContent";
+@import "./moviePage/mainMoviePage";
+@import "./indexPage/carousel";
+@import "./covidPage/covidContent";

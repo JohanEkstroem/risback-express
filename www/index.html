@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Staatliches&family=Titillium+Web&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/07a95dbd5e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="shortcut icon" href="#" />
+
+    <title>Cinema Risbäck</title>
+</head>
+
+<body>
+    <header>
+        <div class="logoHead">
+            <div class="logoContainer">
+                <img class="logo" src="./src/img/logo.png" />
+                <div class="logoText">
+                    <a href="">Cinema Risbäck</a>
+                    <a href="index.html">
+                        <img id="logoSanta" src="./src/img/pixlr-bg-result(4).png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="topnav" id="navbar">
+                <a href="index.html" id="logoLink">
+                    <img id="santaNav" src="./src/img/pixlr-bg-result(4).png" />
+                </a>
+                <a href="#news" class="menuMovies">Filmer</a>
+                <a href="#contact">Biljetter/reservation</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+              Om oss
+              <i class="fa fa-caret-down"></i>
+            </button>
+                    <div class="dropdown-content">
+                        <a href="#">FAQ</a>
+                        <a href="#">Återbetalningsgaranti</a>
+                        <a href="#">Historia</a>
+                        <a href="#">Öppettider</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+              Meny snacks
+              <i class="fa fa-caret-down"></i>
+            </button>
+                    <div class="dropdown-content">
+                        <a href="#">Sortiment</a>
+                        <a href="#">Kampanj</a>
+                        <a href="#">Dricka/Kaffe</a>
+                        <a href="#">Menyer</a>
+                    </div>
+                </div>
+                <a href="#covidInformation" class="Covid-info">Covid-info</a>
+                <a href="javascript:void(0)" class="hamburger">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+    <div class="carousel" id="carousel">
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/dune.jpg" alt="dune" />
+        </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/boss-baby.jpg" alt="boss baby" />
+        </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/venom.jpg" alt="venom" />
+        </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/the-matrix-resurrections.jpg" alt="The Matrix Resurrections" />
+        </div>
+        <div class="carousel-cell">
+            <img src="./src/img/carousel/house-of-gucci.jpg" alt="house of gucci" />
+        </div>
+        <div class="carousel-cell">
+            <img src="src/img/carousel/ainbo.jpg" alt="ainbo" />
+        </div>
+    </div>
+    <main class="mainContainer" id="mainContainer">
+        <div class="commercial">
+            <div class="cinemaEvent eventContainer">
+                <h1 class="cinemaEventText">Bioevenemang</h1>
+            </div>
+            <div class="snacksEvent eventContainer">
+                <h1 class="cinemaEventText">Rabatter</h1>
+            </div>
+            <div class="movieEvent eventContainer ">
+                <h1 class="cinemaEventText ">Filmevent</h1>
+            </div>
+        </div>
+        <div class="movies" id="movies">
+            <div class="movieContainer comingSoon">
+                <h1 class="categoryForMovies">Kommer snart</h1>
+            </div>
+            <div class="movieContainer onCinemaNow">
+                <h1 class="categoryForMovies">Visas nu</h1>
+            </div>
+        </div>
+        <div class="availableMovies">
+            <h1 class="kalendarium">kalendarium</h1>
+            <div class="ticketLists">
+                <div class="today time">
+                    <h3>Idag</h3>
+                </div>
+            </div>
+            <div class="ticketLists">
+                <div class="tomorrow time">
+                    <h3>Imorgon</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footerElem">Bio i Risbäck</div>
+        <div class="footerElem risbackMap">
+            Cinema Risbäck:
+            <a href="https://www.google.com/maps/place/917+03+Risb%C3%A4ck/@64.705489,15.5149822,14z/data=!3m1!4b1!4m5!3m4!1s0x4670ddacaf8e20e3:0x4c33ae912aa817e2!8m2!3d64.7054904!4d15.5324917">
+          Risbäck 917 03
+        </a>
+        </div>
+        <div class="footerElem risbackNum">
+            <i class="fas fa-mobile-alt"></i> 123-45 67 89
+        </div>
+
+        <div class="footerElem">
+            <a href="">info@risback.nu</a>
+        </div>
+    </footer>
+    <script src="bundle.js"></script>
+</body>
+
+</html>

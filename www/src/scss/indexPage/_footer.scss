@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 20px;
+  letter-spacing: 0.2rem;
+  a {
+    text-decoration: none;
+    color: $cDarkgrey;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Staatliches";
+  background-color: $cDarkBeige;
+  color: $cDarkgrey;
+  @include desktop {
+    padding: 3rem 0;
+    @include justifyCenter;
+    flex-direction: row;
+    .risbackNum {
+      @include footerBorder;
+      border-width: 0 2px 0 0;
+    }
+    .risbackMap {
+      @include footerBorder;
+      border-width: 0 0 0 2px;
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+  .footerElem {
+    padding: 20px;
+  }
+}

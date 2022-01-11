@@ -1,0 +1,45 @@
+.movieMain-ctn {
+  padding: 0.6em;
+}
+.active {
+  background-color: $cDarkWhite;
+  border-radius: 1.5px;
+}
+.viewOptions {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 0 0 1em 0;
+
+  h1 {
+    font-family: "Bebas Neue";
+  }
+}
+.filterOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Bebas Neue";
+
+  #movies-today {
+    cursor: pointer;
+    padding: 0.4em;
+  }
+  #movies-upcoming {
+    cursor: pointer;
+    padding: 0.4em;
+  }
+  #movies-children {
+    cursor: pointer;
+    padding: 0.4em;
+  }
+
+  .filter-btn {
+    background-color: #ffff;
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 0.4em;
+  }
+}

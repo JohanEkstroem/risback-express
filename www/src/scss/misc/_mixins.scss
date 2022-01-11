@@ -1,0 +1,46 @@
+@mixin desktop {
+  @media screen and (min-width: $bpDesktop) {
+    @content;
+  }
+}
+
+@mixin justifyCenter {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin footerBorder {
+  border-color: rgb(172, 160, 160);
+  border-style: solid;
+}
+@mixin parentDiv {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+@mixin emptyDiv {
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0.4;
+  width: 100%;
+  padding: 20px 20px;
+  background: $cDarkBrown;
+  color: #e9dce7;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  border-radius: 9px;
+  font: 16px;
+  transform: translateY(9px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 3px rgba(56, 54, 54, 0.86);
+  font-family: "Staatliches";
+}
+
+@mixin emptyDivHover {
+  visibility: visible;
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.3s linear;
+  animation: odsoky 1s ease-in-out infinite alternate;
+}

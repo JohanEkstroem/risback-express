@@ -1,0 +1,25 @@
+{
+    "name": "grupp-d",
+    "version": "1.0.0",
+    "description": "https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzYyMDFiODY5NzkxNTQzZjI5MjQzYWM1MzE5MDVmMGY4XzRiYWVmZjJiLWE1YTQtNGVmMC05NjcwLWEzMzM5ZTc4OTMzNF84YTFjYTUxYy02NmI4LTRmODktOThjMS0yY2Q4NTZjY2ExZTY=",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "sass:watch": "sass --watch ./src/scss/main.scss main.css",
+        "webpack:watch": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JohanEkstroem/grupp-d.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JohanEkstroem/grupp-d/issues"
+    },
+    "homepage": "https://github.com/JohanEkstroem/grupp-d#readme",
+    "dependencies": {
+        "sass": "^1.45.0",
+        "webpack-cli": "^4.9.1"
+    }
+}
