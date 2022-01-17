@@ -1,4 +1,4 @@
-const template = document.createElement('template')
+/* const template = document.createElement('template')
 template.innerHTML = `
 <div id="covidInformation"><h1>Ett tryggt biobesök</h1>
 
@@ -29,3 +29,4 @@ export const covidInforation = () => {
   
     
   };
+ */
